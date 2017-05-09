@@ -1,0 +1,46 @@
+{
+    "text": "Where would you like to ride today?",
+    "attachments": [
+        {
+            "text": "Choose a route",
+            "fallback": "You are unable to choose a bike ride",
+            "callback_id": "cycle_route",
+            "color": "#3AA3E3",
+            "attachment_type": "default",
+            "actions": [
+                {
+                    "name": "route",
+                    "text": "Stelvio",
+                    "type": "button",
+                    "value": "stelvio",
+                    "appname":"SlackDemo",
+                    "prgname":"ActionReply"
+                },
+                {
+                    "name": "route",
+                    "text": "Alpe d'Huez",
+                    "type": "button",
+                    "value": "alpedhuez",
+                    "appname":"SlackDemo",
+                    "prgname":"ActionReply"
+                },
+                {
+                    "name": "route",
+                    "text": "Klausen",
+                    "type": "button",
+                    "value": "klausen",
+                    "appname":"SlackDemo",
+                    "prgname":"ActionReply"
+                },
+                {
+                    "name": "route",
+                    "text": "Old La Honda",
+                    "type": "button",
+                    "value": "olh",
+                    "appname":"SlackDemo",
+                    "prgname":"ActionReply"
+                }                
+            ]
+        }
+    ]
+}
